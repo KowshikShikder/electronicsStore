@@ -1351,18 +1351,43 @@ img{
 /* bottom Footer */
 /* bottom Footer */
 .bottom-footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 26px;
+    padding: 0px 150px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 
 }
+
+
+
+
+.bottom-footer-container h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #C1C8CE;
+}
+
 
 
 .bottom-footer-container .payment-container{
 
+
+}
+
+
+
+.bottom-footer-container .payment-container img{
+    height: auto;
+    width: auto;
 }
 
 
-h6{
-
-}
 
 
 

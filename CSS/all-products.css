@@ -1,0 +1,186 @@
+.all-products-parent{
+    display: grid;
+    width: 70%;
+    margin-left: 30%;
+    /* padding: 5px 10px; */
+    margin-bottom: 120px;
+}
+
+
+
+
+
+
+.all-products-parent  .all-products-top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin-top: 40px;
+    padding-right: 20px;
+}
+
+
+
+
+.all-products-parent  .all-products-top-section .left-section{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #1D1F22;
+}
+
+
+
+
+.all-products-parent  .all-products-top-section .right-section{
+    width: 214px;
+    height: 37px;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    padding: 2px 16px;
+}
+
+
+
+
+.all-products-parent  .all-products-top-section .right-section span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #606264;
+}
+
+
+
+
+.all-products-parent  .all-products-top-section .right-section select{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    border: none;
+    padding: 10px 5px;
+    outline: none;
+    color: #606264;
+}
+
+
+
+
+
+
+
+.all-products-parent  .all-products-top-section .right-section select option{
+    padding: 20px;
+    display: block;
+    height: 40px;
+}
+
+
+
+
+
+
+
+.all-products-parent h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #1D1F22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all-products-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+
+.all-products-container .product-container{
+    width: auto;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+/* PAGINATION */
+/* PAGINATION */
+/* PAGINATION */
+.pagination-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 248px;
+    height: 24px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+
+.pagination-container .arrow{
+    margin-left: 8px;
+}
+
+
+
+.pagination-container .arrow-left{
+    transform: rotate(180deg);
+    margin-right: 16px;
+    margin-left: 0px;
+}
+
+
+
+.pagination-container .arrow, .pagination-container .number{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} 
+
+
+
+
+.pagination-container .number{
+    width: 24px;
+    height: 24px;
+    border-radius: 3px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #1D1F22;
+}
+
+
+
+.pagination-container .number-active{
+    background-color: #2189E3;
+    color: white;
+
+}
+
+
+
+

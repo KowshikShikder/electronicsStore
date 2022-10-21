@@ -21,16 +21,16 @@ img{
 
 
 a{
-    border-bottom: 0px;
-    text-decoration: none;
-    cursor: pointer;
-    color: black;
+    border-bottom: 0px !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    color: black !important;
 }
 
 
 a:hover {
-    text-decoration:none; 
-    cursor:pointer;
+    text-decoration: none !important; 
+    cursor: pointer !important;
 }
 
 
@@ -72,6 +72,8 @@ a:hover {
     color: #8E8F90;
     padding-left: 8px;
     padding-right: 8px;
+    background-color: white;
+    outline: none;
 }
 
 
@@ -210,7 +212,7 @@ a:hover {
     font-size: 13px;
     outline: none;
     box-shadow: none;
-    padding: 16px 16px 15px 32px;
+    padding: 0px 16px 0px 32px;
 }
 
 
@@ -358,7 +360,7 @@ a:hover {
 
 /* ACTIVE BUTTON */
 .navigation-container ul .active{
-    color: #2189E3;
+    color: #2189E3 !important;
 }
 
 
@@ -684,7 +686,7 @@ a:hover {
 
 /* <!-- RIGHT SECTION --> */
 .discounted-product-container .discounted-product-box .discounted-product-right{
-    width: 265.2px;
+    /* width: 265.2px; */
     height: 181px;
     padding: 6px;
 }
@@ -1279,7 +1281,8 @@ a:hover {
 /* Footer Section */
 .footer-section{
     max-width: 100%;
-    padding: 40px 140px;
+    /* padding: 40px 140px; */
+    padding: 40px 40px;
     background: #F3F3F3;
     margin-top: 100px;
 }
@@ -1498,4 +1501,15 @@ a:hover {
 
 
 
+
+
+
+
+
+
+/* @media screen and (max-width: 800px) {
+    .footer-section{
+        padding: 40px 140px;
+    }
+} */
 

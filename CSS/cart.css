@@ -1,0 +1,138 @@
+.cart-section-container{
+    width: 100%;
+    min-height: 300px;
+    background-color: aqua;
+    padding: 0px 40px;
+}
+
+.cart-section-container .top-link-section{
+    /* padding-left: 40px; */
+
+}
+
+.cart-section-container h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.cart-section-container .cart-box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.cart-section-container .cart-box-container .cart-product-box{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    align-items: center;
+    /* width: 632px; */
+    /* height: 196px; */
+    padding: 16px;
+    background: #F3F3F3;
+    border-radius: 4px;
+}
+
+.cart-section-container .cart-box-container .cart-product-box .product-img{
+    padding: 32px;
+    padding-right: 0px;
+}
+
+.cart-section-container .cart-box-container .cart-product-box .product-img img{
+    width: 100px;
+    height: 100px;
+    padding-right: 50px;
+    border-right: 1px solid #BBBBBC;
+}
+
+
+.cart-section-container .cart-box-container .cart-product-box .product-details{
+    padding-left: 0px;
+    padding-left: 30px;
+    /* background-color: aqua; */
+}
+
+
+
+.cart-section-container .cart-box-container .cart-product-box .product-details p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #606264;
+}
+
+
+.cart-section-container .cart-box-container .cart-product-box .product-details p span:nth-child(2){
+    font-weight: 800;
+}
+
+
+
+.cart-section-container .cart-box-container .cart-product-box .product-details .quantiry-section{
+    margin-bottom: 30px;
+}
+
+
+.cart-section-container .cart-box-container .cart-product-box .cart-close{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subtotal-container{
+    display: grid;
+    width: 438px;
+    height: 289px;
+    padding: 32px 40px;
+    background: #F3F3F3;
+}
+
+
+
+.subtotal-container p{
+    padding: 20px 30px;
+}
+
+
+.subtotal-container p:nth-child(1){
+    border-bottom: 1px solid #BBBBBC;
+}
+
+.subtotal-container p span{
+
+}
+

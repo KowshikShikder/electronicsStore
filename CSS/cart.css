@@ -5,11 +5,17 @@
 
 
 
+.cart-section-container .top-link-section{
+    margin-top: 20px;
+}
+
+
 .cart-section-container h2{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
+    margin-top: 40px;
 }
 
 
@@ -18,6 +24,7 @@
     align-items: flex-start;
     justify-content: space-around;
     padding: 0px 80px;
+    margin-top: 40px;
 }
 
 
@@ -49,8 +56,6 @@
 
 .cart-section-container .cart-box-container .cart-product-box .product-details{
     padding-left: 20px;
-    /* padding-right: 30px; */
-    /* background-color: aqua; */
 }
 
 
@@ -59,7 +64,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
-    line-height: 22px;
+    min-width: 260px;
     color: #1D1F22;
 
 }
@@ -84,6 +89,56 @@
 .cart-section-container .cart-box-container .cart-product-box .product-details .quantiry-section{
     margin-bottom: 30px;
 }
+
+
+
+
+
+
+
+.quantify-section{
+    display: flex;
+    align-items: center;
+}
+
+
+.quantiry-section > span{
+    margin-right: 10px;
+}
+
+
+.quantity-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    width: 80px;
+}
+
+.quantity-input span{
+    display: grid;
+}
+
+
+.quantity-input span img{
+    height: auto;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .cart-section-container .cart-box-container .cart-product-box .cart-close{
@@ -176,9 +231,17 @@
     padding: 16px 32px;
     color: #2189E3;
     cursor: pointer;
+    background-color: white;
 }
 
 
 .all-facilities-container{
     margin-top: 120px;
 }
+
+
+
+
+
+
+

@@ -1555,3 +1555,28 @@ a:hover {
     }
 } */
 
+
+
+
+
+
+
+
+
+
+
+/* universal Styles */
+.top-link-section{
+    margin-top: 20px;
+    padding-left: 60px;
+}
+
+
+
+.heading-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 40px;
+}

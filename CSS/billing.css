@@ -1,0 +1,133 @@
+.billing-container{
+    display: grid;
+
+    width: 100%;
+    background: red;
+}
+
+
+.billing-top-section{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+
+}
+
+
+
+
+.billing-top-section .shipping-address-container:nth-child(1){
+    margin-right: 22px;
+
+
+}
+
+
+
+.billing-top-section .shipping-address-container .shipping-address-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.billing-top-section .shipping-address-container .shipping-address-top .heading-title{
+    margin: 0px;
+
+}
+
+.billing-top-section .shipping-address-container .shipping-address-top button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #2189E3;
+    background-color: white;
+
+    padding: 4px 8px;
+    border: 0.5px solid #2189E3;
+    border-radius: 2px;
+    
+}
+
+
+.billing-top-section .shipping-address-container .address-container-box{
+    position: relative;
+}
+
+
+
+.billing-top-section .shipping-address-container .address-container-box input{
+    position: absolute;
+    left: 10px;
+    top: 22px;
+
+}
+
+
+
+input[type='radio'] {
+    accent-color: #2189E3;
+}
+
+
+.billing-top-section .shipping-address-container .address-container-box .shipping-address-list{
+    padding: 12px 20px 24px 40px;
+    background: #CDE8FF;
+    border: 1px solid #2189E3;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: 'Inter';
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+
+
+.billing-top-section .shipping-address-container .address-container-box .shipping-address-list li{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.billing-top-section .shipping-address-container .address-container-box .shipping-address-list li span:nth-child(2){
+    color: #606264;
+}
+
+
+
+.billing-top-section .shipping-address-container .address-container-box .shipping-address-list li span:nth-child(2){
+    color: #1b1c1d;
+}
+
+
+
+
+
+.billing-top-section .shipping-address-container .address-container-box .three-dots{
+    position: absolute;
+    top: 22px;
+    right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/* .billing-bottom-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+
+} */

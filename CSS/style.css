@@ -821,7 +821,7 @@ a:hover {
     padding: 32px 16px;
     width: 322px;
     /* height: 425px; */
-    border: 1px solid #BBBBBC;
+    border: 1px solid #BBBBBC !important;
     border-radius: 4px;
     margin-right: 16px;
 }

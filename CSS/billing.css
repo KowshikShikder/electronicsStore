@@ -1,8 +1,7 @@
 .billing-container{
     display: grid;
-
     width: 100%;
-    background: red;
+    margin-bottom: 120px;
 }
 
 
@@ -131,3 +130,246 @@ input[type='radio'] {
     justify-content: center;
 
 } */
+
+
+
+
+
+.billing-bottom-section{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    
+}
+
+
+
+
+
+
+
+
+.summary-container{
+    display: grid;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+.summary-container .summary-container-box{
+    background: #F3F3F3;
+    border-radius: 4px;
+    padding: 0px 40px;
+
+    display: grid;
+    justify-content: center;
+    width: 330px;
+    padding-left: 0px;
+}
+
+
+.summary-container .summary-container-box .summary-list-container{
+    list-style: none;
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #1D1F22;
+}
+
+
+
+
+.summary-list-container li{
+    display: flex;
+    margin-top: 18px;
+    padding:0px 30px;
+}
+
+
+.summary-list-container .border-bottom{
+    border-bottom: 1px solid #D1D2D2;
+    padding-bottom: 18px;
+}
+
+
+
+
+.summary-list-container span:nth-child(1){
+    display: grid;
+    width: 180px;
+}
+
+
+
+.summary-list-container span:nth-child(2){
+    display: grid;
+    width: 90px;
+    text-align: right;
+}
+
+
+
+.summary-list-container .summary-input-li{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+
+}
+
+
+.summary-list-container .summary-input-li input{
+    padding: 12px 8px;
+    width: 230px;
+    height: 18px;
+    background: #FFFFFF;
+    font-size: 12px;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    outline: none;
+    margin-right: 16px;
+}
+
+
+.summary-list-container .summary-input-li button{
+    padding: 8px 16px;
+    width: 73px;
+    height: 39px;
+    background: #FFFFFF;
+    border: 1px solid #2189E3;
+    color: #2189E3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.payment-options-container{
+    margin-right: 30px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+.payment-options-container .payment-option-box-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: -10px;
+
+}
+
+
+.payment-options-container .payment-options{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #d1d1d18f;
+    border-radius: 4px;
+    margin: 8px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+
+
+.payment-options-container .active{
+    border-color: #2189E3;
+    background: #CDE8FF;
+}
+
+
+
+.payment-options-container .payment-options .payment-option-box{
+
+}
+
+.payment-options-container .payment-options .payment-option-box img{
+    width: 160px;
+    height: 106.67px;
+}
+
+
+
+.payment-options-container .payment-options .payment-option-box h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #1D1F22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.payment-options-container .or{
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+.payment-options-container p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #1D1F22;
+    margin-top: 30px;
+}
+
+
+.payment-options-container .wallet-balance span{
+    font-weight: 800;
+}
+
+
+.payment-options-container button{
+    padding: 16px 32px;
+    background: #FFFFFF;
+    border: 1px solid #2189E3;
+    color: #2189E3;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.payment-options-container .text-primary{
+    color: #2189E3;
+}
+
+
+
+.place-order-btn{
+    margin-top: 80px;
+}

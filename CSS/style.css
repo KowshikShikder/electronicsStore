@@ -394,7 +394,7 @@ a:hover {
 
 
 /* SLIDE */
-.hero-section-container .slide{
+.hero-section-container .my-slide{
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -402,7 +402,7 @@ a:hover {
 }
 
 
-.hero-section-container .slide > img{
+.hero-section-container .my-slide > img{
     position: absolute;
     height: 506px;
     width: 100%;
@@ -414,14 +414,14 @@ a:hover {
 
 /* HERO LEFT SECTION */
 /* HERO LEFT SECTION */
-.hero-section-container .slide .left-section{
+.hero-section-container .my-slide .left-section{
     width: 390px;
     z-index: 2;
 }
 
 
 
-.hero-section-container .slide .left-section h1{
+.hero-section-container .my-slide .left-section h1{
     font-family: 'Poppins';
     font-style: normal;
     text-decoration: none;
@@ -435,7 +435,7 @@ a:hover {
 }
 
 
-.hero-section-container .slide .left-section p{
+.hero-section-container .my-slide .left-section p{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -450,7 +450,7 @@ a:hover {
 
 
 /* HERO LEFT BUTTON */
-.hero-section-container .slide .left-section button{
+.hero-section-container .my-slide .left-section button{
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -477,7 +477,7 @@ a:hover {
 
 /* HERO RIGHT SECTION */
 /* HERO RIGHT SECTION */
-.hero-section-container .slide .right-section{
+.hero-section-container .my-slide .right-section{
     margin-top: -100px;
     width: 500px;
     height: 718.18px;
@@ -486,7 +486,7 @@ a:hover {
 
 
 /* HERO RIGHT IMAGE */
-.hero-section-container .slide .right-section img{
+.hero-section-container .my-slide .right-section img{
     object-fit: 100%;
 }
 
@@ -806,7 +806,7 @@ a:hover {
     justify-content: space-around;
     width: calc(100%-30px);
     margin-top: 50px;
-    padding-left: 30px;
+    padding-left: 30px !important;
 }
 
 
@@ -821,11 +821,10 @@ a:hover {
     text-align: center;
     position: relative;
     padding: 32px 16px;
-    width: 322px;
-    /* height: 425px; */
+    width: 246px !important;
     border: 1px solid #BBBBBC !important;
     border-radius: 4px;
-    margin-right: 16px;
+    /* margin-right: 16px; */
 }
 
 
@@ -937,7 +936,7 @@ a:hover {
     justify-content: space-around;
     width: calc(100%-30px);
     margin-top: 50px;
-    padding-left: 30px;
+    padding-left: 30px !important;
 }
 
 
@@ -965,7 +964,7 @@ a:hover {
 }
 
 
-.second-hero-section-container .slide{
+.second-hero-section-container .my-slide{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -974,7 +973,7 @@ a:hover {
 }
 
 
-.second-hero-section-container .slide > img{
+.second-hero-section-container .my-slide > img{
     position: absolute;
     height: 506px;
     width: 100%;
@@ -985,7 +984,7 @@ a:hover {
 
 
 /* LEFT SECTION */
-.second-hero-section-container .slide .left-section{
+.second-hero-section-container .my-slide .left-section{
     display: grid;
     justify-content: flex-end;
     width: 390px;
@@ -997,7 +996,7 @@ a:hover {
 
 
 /* HERO MAIN TEXT */
-.second-hero-section-container .slide .left-section h1{
+.second-hero-section-container .my-slide .left-section h1{
     font-family: 'Poppins';
     font-style: normal;
     text-decoration: none;
@@ -1013,7 +1012,7 @@ a:hover {
 }
 
 
-.second-hero-section-container .slide .left-section p{
+.second-hero-section-container .my-slide .left-section p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -1031,7 +1030,7 @@ a:hover {
 
 
 /* HERO BUTTON */
-.second-hero-section-container .slide .left-section button{
+.second-hero-section-container .my-slide .left-section button{
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -1062,7 +1061,7 @@ a:hover {
 
 /* Right Section */
 /* Right Section */
-.second-hero-section-container .slide .right-section{
+.second-hero-section-container .my-slide .right-section{
     margin-top: -100px;
     width: 623px;
     height: 653px;
@@ -1116,7 +1115,7 @@ a:hover {
 
 
 /* RIGHT SECTION IMAGE */
-.second-hero-section-container .slide .right-section img{
+.second-hero-section-container .my-slide .right-section img{
     object-fit: 100%;
 }
 
@@ -1147,7 +1146,7 @@ a:hover {
     justify-content: space-around;
     width: calc(100%-30px);
     margin-top: 50px;
-    padding-left: 30px;
+    padding-left: 30px !important;
 }
 
 
@@ -1180,7 +1179,7 @@ a:hover {
 /* partners Section */
 .partner-section-container{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto ;
+    grid-template-columns: auto auto auto auto auto auto;
     justify-content: space-between;
     align-items: center;
     height: 51.31px;
@@ -1507,7 +1506,6 @@ a:hover {
     padding: 0px 150px;
     margin-top: 30px;
     margin-bottom: 20px;
-
 }
 
 

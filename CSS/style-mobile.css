@@ -1,8 +1,45 @@
-/* @media screen and (min-width: 414px) { }*/
   body{
-    background: aqua !important;
+    /* background: rgb(255, 255, 255) !important; */
   }
+
   
+  .all-facilities-container,
+  .discounted-product-container{
+    flex-direction: column;
+  }
+
+
+
+
+
+/* facilities section */
+  .all-facilities-container .facilities-container{
+    margin-bottom: 8px;
+  }
+
+
+
+
+  /* discount section */
+
+.discounted-product-container .discounted-product-box{
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+
+
+
+.product-container{
+  width: 300px !important;
+
+}
+
+
+
+.main-title{ 
+  width: 100%;
+}
 
 
 
@@ -11,4 +48,103 @@
 
 
 
+/* PARTNERS SECTION */
+/* PARTNERS SECTION */
+.partner-section-container{
+  grid-template-columns: auto auto auto;
+  height: 140px;
+  padding: 0px 40px;
+  margin-top: 60px;
 
+}
+
+
+.partner-section-container img{
+  justify-self: center;
+}
+
+
+
+
+/* NEWS LETTER SECTION */
+.bottom-search-section{
+  display: grid;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+
+
+.bottom-search-section .bottom-search-text{
+  display: grid;
+  justify-content: center;
+}
+
+
+
+
+.bottom-search-section .bottom-search-text h2{
+  margin: 0;
+}
+
+
+
+.bottom-search-section .bottom-search-text h4{
+  justify-self: center;
+  margin: 0;
+  margin-top: 8px;
+}
+
+
+.search-input{
+  margin-top: 26px;
+}
+
+
+
+
+
+.footer-section .footer-top-section{
+  grid-template-columns: auto;
+}
+
+
+.footer-section .footer-top-section div{
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+.footer-section .footer-bottom-section{
+  grid-template-columns: auto auto auto;
+}
+
+
+.footer-section .footer-bottom-section ul li{
+  padding-right: 26px;
+
+}
+
+
+.bottom-footer-container{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  padding: 0px 50px;
+  background-color: #F3F3F3;
+  height: auto;
+
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+
+.bottom-footer-container h6{
+  margin: 0;
+  padding-top: 10px;
+}

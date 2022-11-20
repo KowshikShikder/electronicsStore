@@ -22,9 +22,14 @@
 
   /* discount section */
 
+.discounted-product-container{
+  margin-top: 60px;
+}
+
 .discounted-product-container .discounted-product-box{
   width: 100%;
   margin-bottom: 8px;
+  margin-top: 10px;
 }
 
 
@@ -38,7 +43,7 @@
 
 
 .main-title{ 
-  width: 100%;
+  /* width: 100%; */
 }
 
 

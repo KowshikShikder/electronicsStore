@@ -158,6 +158,14 @@ a:hover {
 /* search And Logo Section */
 /* search And Logo Section */
 /* search And Logo Section */
+.top-nav-bar{
+    display: none;
+}
+
+
+
+
+
 .logo-search-container{
     display: grid;
     display: flex;
@@ -285,6 +293,12 @@ a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+
+
+.logo-search-container .icon-container i:nth-child(1){
+    display: none;
 }
 
 
@@ -1079,45 +1093,17 @@ a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* RIGHT SECTION IMAGE */
 .second-hero-section-container .my-slide .right-section img{
     object-fit: 100%;
 }
+
+
+
+
+
+
+
 
 
 

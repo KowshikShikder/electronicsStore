@@ -2,6 +2,217 @@
     /* background: rgb(255, 255, 255) !important; */
   }
 
+
+
+
+.navigation-container, .logo-search-container{
+  /* display: none; */
+}
+
+
+
+.top-section{
+  padding: 0px 6px;
+}
+
+
+
+.top-section .top-right-container{
+  display: none;
+}
+
+
+
+.top-left-container{
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.top-left-container .borders{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Logo & Search Section */
+.logo-search-container .search-bar-container{
+  display: none;
+}
+
+
+.logo-section-parent{
+  display: flex;
+  align-items: center;
+}
+
+
+.top-nav-bar{
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+}
+
+
+
+
+.logo-search-container .icon-container i:nth-child(1){
+  display: inline-block;
+}
+
+
+
+.logo-search-container{
+  padding: 0px 20px;
+  box-shadow: 0px 10px 25px -2px rgb(20 20 20 / 10%);
+}
+
+
+.logo-search-container .logo-container{
+  padding: 0px;
+}
+
+
+
+.navigation-container{
+  display: none;
+}
+
+
+
+/* Hero Section */
+/* Hero Section */
+/* Hero Section */
+/* Hero Section */
+.second-hero-section-container,
+.hero-section-container{
+  padding-bottom: 20px;
+}
+
+
+.hero-section-container .swiper-wrapper,
+.second-hero-section-container .swiper-wrapper{
+  height: auto;
+}
+.second-hero-section-container,
+.hero-section-container{
+  margin-top: 60px;
+  padding-bottom: 70px;
+}
+
+
+
+
+/* SLIDE */
+.hero-section-container .my-slide > img,
+.second-hero-section-container .my-slide > img{
+  height: 300px;
+}
+
+
+
+
+/* HERO LEFT SECTION */
+/* HERO LEFT SECTION */
+.hero-section-container .my-slide .left-section,
+.second-hero-section-container .my-slide .left-section{
+  width: 300px;
+  padding-left: 16px;
+  margin-right: 12px;
+}
+
+
+
+.hero-section-container .my-slide .left-section h1,
+.second-hero-section-container .my-slide .left-section h1{
+  line-height: 36px;
+  font-size: 26px;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+}
+
+
+.hero-section-container .my-slide .left-section p,
+.second-hero-section-container .my-slide .left-section p{
+  font-size: 12px;
+  line-height: 14px;
+}
+
+
+
+/* HERO LEFT BUTTON */
+.hero-section-container .my-slide .left-section button,
+.second-hero-section-container .my-slide .left-section button{
+  padding: 4px 16px;
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* HERO RIGHT SECTION */
+/* HERO RIGHT SECTION */
+.hero-section-container .my-slide .right-section,
+.second-hero-section-container .my-slide .right-section{
+  margin-top: 00px;
+  width: 200px;
+  height: 260px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* facilities section */
+/* facilities section */
+/* facilities section */
   
   .all-facilities-container,
   .discounted-product-container{
@@ -12,7 +223,6 @@
 
 
 
-/* facilities section */
   .all-facilities-container .facilities-container{
     margin-bottom: 8px;
   }
@@ -21,10 +231,6 @@
 
 
   /* discount section */
-
-.discounted-product-container{
-  margin-top: 60px;
-}
 
 .discounted-product-container .discounted-product-box{
   width: 100%;
@@ -42,12 +248,19 @@
 
 
 
-.main-title{ 
-  /* width: 100%; */
+
+/* Main Title */
+/* Main Title */
+/* Main Title */
+
+.main-title .title-text > span{
+  width: 153px;
 }
 
 
-
+.main-title .title-text > span > span{
+  width: 26px;
+}
 
 
 
@@ -163,6 +376,216 @@
 
 
 /* SINGLE PRODUCT */
+/* SINGLE PRODUCT */
+/* SINGLE PRODUCT */
+/* SINGLE PRODUCT */
+/* SINGLE PRODUCT */
 .single-products-container{
+  align-items: center;
   grid-template-columns: auto;
+  width: 97vw;
+}
+
+
+.single-products-container .single-product-image-container{
+  width: 97vw;
+  padding: 6px;
+
+}
+
+
+.single-product-image-container .main-img{
+  height: 380px;
+}
+
+
+.single-product-image-container .secondary-images-container .image{
+  padding: 16px;
+}
+
+.single-product-image-container .secondary-images-container .image:nth-child(1){
+  margin-left: 0px;
+}
+
+.single-product-image-container .secondary-images-container .image:nth-child(3){
+  margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+.main-img img{
+  height: 100% !important; 
+  width: 100% !important; 
+}
+
+
+.single-product-description{
+  width: 97vw;
+}
+
+
+
+
+
+
+/* Review Description Section */
+.review-description-section .review-description-view-section {
+  padding: 26px;
+}
+
+
+
+
+
+
+
+
+/* Cart Section */
+/* Cart Section */
+/* Cart Section */
+
+.cart-section-container .cart-box-container{
+  display: grid;
+  padding: 0vw;
+}
+
+
+
+.cart-section-container {
+  padding-left: 0px;
+}
+
+
+
+.cart-section-container .heading-title{
+  padding-left: 20px;
+}
+
+
+.cart-section-container .cart-box-container .cart-product-box{
+  margin-bottom: 30px;
+  padding-right: 0px;
+  grid-template-columns: 30% 70%;
+}
+
+
+
+.cart-section-container .cart-box-container .cart-product-box .product-img img{
+  padding-right: 0px;
+  border: none;
+}
+
+.cart-section-container .cart-box-container .cart-product-box .product-img{
+  padding: 0px;
+}
+
+
+
+.cart-section-container .cart-box-container .cart-product-box .product-details{
+  padding-right: 36px;
+}
+
+
+
+.cart-section-container .cart-box-container .cart-product-box .product-details h2{
+  min-width: 10px;
+}
+
+
+.subtotal-container{
+  padding:12px 8px;;
+}
+
+
+
+
+
+
+
+/* Billing Section */
+/* Billing Section */
+/* Billing Section */
+.billing-top-section{
+  grid-template-columns: auto ;
+}
+
+
+
+
+.billing-top-section .shipping-address-container:nth-child(1) {
+  margin-right: 0px;
+}
+
+
+
+
+
+
+.billing-bottom-section{
+  grid-template-columns: auto;
+}
+
+
+.summary-container{
+  justify-content: center;
+}
+
+
+.payment-options-container .payment-option-box-container{
+  grid-template-columns: auto auto;
+}
+
+
+
+
+
+.payment-options-container {
+  margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Second Hero Section */
+/* Second Hero Section */
+/* Second Hero Section */
+.second-hero-section-container .my-slide .right-section{
+  width: 300px;
+}
+
+
+.second-hero-section-container .my-slide .left-section{
+  padding-left: 0px;
+  margin-right: 33px;
 }

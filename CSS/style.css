@@ -336,6 +336,30 @@ a:hover {
 }
 
 
+.dropdown-section-button{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0px 20px;
+    cursor: pointer;
+    
+}
+
+
+.dropdown-section-button span{
+    font-size: 22px;
+    margin:0px 10px;
+}
+
+.dropdown-section-button .icon{
+    height: 16px;
+    width: 16px;
+}
+
+
+
 
 
 /* <!-- dropdown Navigation --> */
@@ -344,6 +368,9 @@ a:hover {
     width: 322px;
     height: 48px;
     border: 1px solid #BBBBBC;
+    position: relative;
+    
+    border-radius: 4px 4px 0px 0px;
 }
 
 
@@ -383,13 +410,48 @@ a:hover {
 
 
 
+.catagories-container{
+    left: -1px;
+    top: 49px;
+    z-index: 10;
+    position: absolute;
+    width: 87.5%;
+    border: 1px solid #BBBBBC;
+    border-top: 0px;
+    background: white;
+    min-height: 685px ;
+    padding: 20px;
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+
+.catagories-container .sub-title{
+    position: relative;
+    padding-bottom: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+}
 
 
 
+.catagories-container .sub-title .sub-title-border{
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #BBBBBC;
+    position: absolute;
+    bottom: 0px;
+}
 
 
 
-
+.catagories-container .active{
+    color: #2189E3;
+}
 
 
 

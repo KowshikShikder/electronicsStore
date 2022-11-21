@@ -589,3 +589,22 @@
   padding-left: 0px;
   margin-right: 33px;
 }
+
+
+
+
+
+
+
+/* All Catagories Section */
+/* All Catagories Section */
+/* All Catagories Section */
+.all-catagories-container{
+  grid-template-columns: auto;
+  width: 100%;
+}
+
+
+.all-catagories-container .category-box{
+  padding: 8px;
+}

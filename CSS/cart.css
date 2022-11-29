@@ -13,7 +13,7 @@
 
 
 
-.cart-section-container .cart-box-container{
+ .cart-box-container{
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
@@ -22,12 +22,10 @@
 }
 
 
-.cart-section-container .cart-box-container .cart-product-box{
+.cart-box-container .cart-product-box{
     display: grid;
     grid-template-columns: 45% 55%;
     align-items: center;
-    /* max-width: 632px; */
-    /* height: 196px; */
     padding: 16px;
     background: #F3F3F3;
     border-radius: 4px;
@@ -35,12 +33,12 @@
     position: relative;
 }
 
-.cart-section-container .cart-box-container .cart-product-box .product-img{
+.cart-box-container .cart-product-box .product-img{
     padding: 32px;
     padding-right: 0px;
 }
 
-.cart-section-container .cart-box-container .cart-product-box .product-img img{
+.cart-box-container .cart-product-box .product-img img{
     width: 100px;
     height: 100px;
     padding-right: 80px;
@@ -48,15 +46,15 @@
 }
 
 
-.cart-section-container .cart-box-container .cart-product-box .product-details{
+.cart-box-container .cart-product-box .product-details{
     padding-left: 20px;
 }
 
 
-.cart-section-container .cart-box-container .cart-product-box .product-details h2{
+.cart-box-container .cart-product-box .product-details h2{
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 15px;
     min-width: 260px;
     color: #1D1F22;
@@ -65,7 +63,7 @@
 
 
 
-.cart-section-container .cart-box-container .cart-product-box .product-details p{
+.cart-box-container .cart-product-box .product-details p{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -74,13 +72,13 @@
 }
 
 
-.cart-section-container .cart-box-container .cart-product-box .product-details p span:nth-child(2){
+.cart-box-container .cart-product-box .product-details p span:nth-child(2){
     font-weight: 800;
 }
 
 
 
-.cart-section-container .cart-box-container .cart-product-box .product-details .quantiry-section{
+.cart-box-container .cart-product-box .product-details .quantiry-section{
     margin-bottom: 30px;
 }
 

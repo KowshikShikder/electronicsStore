@@ -5,6 +5,8 @@
         <title>   Order Placed </title>
 
         <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+        <link rel="stylesheet" href="../CSS/cart.css" type="text/css">
+        <link rel="stylesheet" href="../CSS/billing.css" type="text/css">
         <link rel="stylesheet" href="../CSS/order-placed.css" type="text/css">
     </head>
     <body>
@@ -200,9 +202,9 @@
 
 
 
-        <div> <p> *You can cancel your order within 24 hours after the order date. </p> </div>
+        <div class="order-cancellation-note"> <p> *You can cancel your order within 24 hours after the order date. </p> </div>
         
-        <div> <p> Order ID: <span>  20221214-9874563 </span></p> </div>
+        <div class="order-code"> <p> Order ID: <span>  20221214-9874563 </span></p> </div>
 
         </div>
 
@@ -210,14 +212,53 @@
 
 
 
+        <div class="product-details-summary-container">
+
+          <div class="cart-box-container">
+          <h4 class="heading-title"> Products </h4>
+          
+
+            <div class="cart-product-box">
+              <div class="product-img"> <img src="../Asests/images/laptop image.png" alt=""> </div>
+              <div class="product-details">
+                  <h2> Tablet White EliteBook Revolve 666 H0 </h2>
+                  <div class="quantify-section"> 
+                    <span> Quantity : </span>
+                    <div class="quantity-input"> 
+                      <!-- <span> <img src="../Asests/icons/minus-circle.png" alt=""> </span>  -->
+                      <span> 3 </span> 
+                      <!-- <span> <img src="../Asests/icons/plus-circle.png" alt=""> </span>  -->
+                    </div>  
+                  </div>
+                  <p>  <span> Unit Price : </span>  <span> 160$ </span></p>
+                  <p>  <span> Total :  </span>  <span> 160$ </span></p>
+              </div>
+            </div>
+
+          </div>
 
 
 
 
 
 
+        <div class="summary-container">
 
+          <h4 class="heading-title"> Summary </h4>
+          <div class="summary-container-box">
 
+              <ul class="summary-list-container">
+                  <li class="border-bottom"> <span> Products </span>    <span> Total </span> </li>
+                  <li class="border-bottom"> <span> Tablet White EliteBook Revolve 666 H0 </span>    <span> 160.00 $ </span> </li>
+                  <li> <span> Subtotal </span>    <span> 160.00 $ </span> </li>
+                  <li> <span> Tax </span>    <span> 0.00 $ </span> </li>
+                  <li class="border-bottom"> <span> Shipping </span>    <span> 0.00 $ </span> </li>
+                  <li> <span> Total </span>    <span> 160.00 $ </span> </li>
+              </ul>
+          </div>
+        </div>
+
+        </div>
     </div>
 
 
@@ -307,7 +348,7 @@
         <img src="../Asests/icons/image 14 (Traced).png" alt=""> 
         <img src="../Asests/icons/dell-png-logo-3741 1 (Traced).png" alt=""> 
         <img src="../Asests/icons/Group.png" alt=""> 
-        <img src="../Asests/icons/image 15 (Traced).png" alt=""> 
+        <img src="../Asests/icons/image 15 (Traced).png" alt="">
     </div>
       
       
